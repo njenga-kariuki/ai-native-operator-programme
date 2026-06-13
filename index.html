@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The AI-Native Operator Programme</title>
-<meta name="description" content="A twelve-week course that teaches senior students to operate AI, automate real workflows, and hand over working systems.">
+<meta name="description" content="A 12-week programme for Haven Institute of Technology. Students learn to use AI to do real work, with six working builds and a real-organisation final project.">
 <meta name="theme-color" content="#0E9F6E">
 <link rel="canonical" href="https://njenga-kariuki.github.io/ai-native-operator-programme/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="The AI-Native Operator Programme">
-<meta property="og:description" content="A twelve-week course that teaches senior students to operate AI, automate real workflows, and hand over working systems.">
+<meta property="og:description" content="A 12-week programme for Haven Institute of Technology. Students learn to use AI to do real work, with six working builds and a real-organisation final project.">
 <meta property="og:url" content="https://njenga-kariuki.github.io/ai-native-operator-programme/">
 <meta property="og:image" content="https://njenga-kariuki.github.io/ai-native-operator-programme/preview.jpg">
 <meta property="og:image:width" content="1920">
@@ -171,9 +171,15 @@
   }
   #start.gone { opacity: 0; pointer-events: none; }
   .start-card { text-align: center; max-width: 940px; padding: 0 40px; }
-  .start-card .glyph { width: 58px; height: 58px; margin: 0 auto 38px; }
-  .start-card h1 { font-size: 78px; margin-bottom: 26px; letter-spacing: -0.045em; line-height: 1.0; }
-  .start-card p { font-size: 23px; color: var(--muted); line-height: 1.5; margin-bottom: 48px; letter-spacing: -0.01em; }
+  .start-card .glyph { width: 42px; height: 42px; margin: 0 auto 24px; }
+  .start-label {
+    display: block; margin-bottom: 22px;
+    font-family: var(--mono); font-size: 13px; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--accent); font-weight: 700;
+  }
+  .start-card h1 { font-size: 72px; margin-bottom: 24px; letter-spacing: -0.045em; line-height: 1.0; }
+  .start-card p { font-size: 22px; color: var(--muted); line-height: 1.45; margin: 0 auto 20px; max-width: 820px; letter-spacing: -0.01em; }
+  .start-card .proof { font-size: 16px; color: var(--ink-soft); font-weight: 600; margin-bottom: 42px; }
   .start-actions { display: inline-flex; align-items: center; justify-content: center; gap: 14px; flex-wrap: wrap; }
   #beginBtn, .pdf-link {
     appearance: none; cursor: pointer; font-family: var(--sans); font-weight: 600;
@@ -188,13 +194,15 @@
   #beginBtn svg, .pdf-link svg { width: 15px; height: 15px; fill: currentColor; }
   @media (max-width: 700px) {
     .start-card { max-width: 100%; padding: 0 24px; }
-    .start-card .glyph { width: 46px; height: 46px; margin-bottom: 28px; }
-    .start-card h1 { font-size: 46px; margin-bottom: 20px; letter-spacing: -0.035em; }
-    .start-card p { font-size: 18px; margin-bottom: 32px; }
+    .start-card .glyph { width: 34px; height: 34px; margin-bottom: 18px; }
+    .start-label { font-size: 10px; letter-spacing: 0.11em; margin-bottom: 18px; }
+    .start-card h1 { font-size: 42px; margin-bottom: 18px; letter-spacing: -0.035em; }
+    .start-card p { font-size: 17px; margin-bottom: 16px; }
+    .start-card .proof { font-size: 13px; margin-bottom: 30px; }
     #beginBtn, .pdf-link { font-size: 16px; padding: 15px 26px; }
   }
   @media (max-width: 360px) {
-    .start-card h1 { font-size: 40px; }
+    .start-card h1 { font-size: 37px; }
     #beginBtn, .pdf-link { padding: 14px 22px; }
   }
 
@@ -501,14 +509,14 @@
       <span class="wm">AI&#8209;Native Operator Programme</span>
     </div>
     <div class="chrome pageno"><b id="pgCur">01</b> / 13</div>
-    <div class="chrome stamp">Pilot proposal &#183; June 2026</div>
+    <div class="chrome stamp">Haven Institute of Technology &#183; June 2026</div>
 
     <!-- ===================== SCENE 1: TITLE ===================== -->
     <section class="scene" id="s1" data-screen-label="01 Title">
-      <p class="eyebrow kicker r" style="--d:.15s">A pilot proposal for [School]</p>
+      <p class="eyebrow kicker r" style="--d:.15s">For Haven Institute of Technology</p>
       <h1 class="display r" style="--d:.35s">The AI&#8209;Native<br>Operator Programme</h1>
       <div class="rulebar r-line" style="--d:.9s"></div>
-      <p class="lede sub r" style="--d:1.05s">A twelve&#8209;week course that teaches [School]'s students to operate AI: to take real work, automate it with the right human oversight, and hand it over running. We propose a pilot cohort of <span class="accent">20 to 25 students</span> in [Term, 2026].</p>
+      <p class="lede sub r" style="--d:1.05s">A twelve&#8209;week programme that teaches Haven's senior students to use AI to do real work: map the process, build the system, check the result, and hand it over running. Built for a cohort of <span class="accent">20 to 25 students</span> in [Term, 2026].</p>
     </section>
 
     <!-- ===================== SCENE 2: WHY NOW ===================== -->
@@ -654,11 +662,11 @@
         <div>
           <p class="role r" style="--d:0s">Who teaches it</p>
           <h2 class="name r" style="--d:.15s">Njenga<br>Kariuki</h2>
-          <p class="title-line r" style="--d:.4s">Managing Executive: Artificial Intelligence at M&#8209;Pesa Africa, leading AI transformation across Africa's largest fintech platform. He designed this course, and teaches both weekly sessions himself.</p>
+          <p class="title-line r" style="--d:.4s">Managing Executive: Artificial Intelligence, leading AI transformation across Africa's largest fintech platform. He designed this course, and teaches both weekly sessions himself.</p>
           <p class="home r" style="--d:.65s">Born in Kenya, raised in the United States, returned in 2026. Coming home to build, and to train the next generation, is the point of the move.</p>
         </div>
         <div class="cv">
-          <div class="cv-item r" style="--d:.7s"><div class="cv-k">100M+</div><div class="cv-v">customers on the platform whose AI transformation he leads at M&#8209;Pesa Africa, on $2B+ in revenue.</div></div>
+          <div class="cv-item r" style="--d:.7s"><div class="cv-k">100M+</div><div class="cv-v">customers on the platform whose AI transformation he leads, with $2B+ in revenue.</div></div>
           <div class="cv-item r" style="--d:.85s"><div class="cv-k">12 years</div><div class="cv-v">at Amazon and AWS, building AI&#8209;native businesses and products from zero to one, across e&#8209;commerce, IoT, supply chain, health, and life sciences.</div></div>
           <div class="cv-item r" style="--d:1s"><div class="cv-k">$700M+</div><div class="cv-v">in P&amp;Ls managed; delivered frontier machine learning, computer vision, and LLM capabilities at global scale, leading large science, engineering, and product organisations.</div></div>
           <div class="cv-item r" style="--d:1.15s"><div class="cv-k">Stanford</div><div class="cv-v">GSB graduate, MS 2025, with published research from the Stanford Institute for Human&#8209;Centered AI: he co&#8209;wrote part of the evidence base this proposal cites.</div></div>
@@ -674,9 +682,9 @@
     </section>
 
     <!-- ===================== SCENE 13: THE ASK ===================== -->
-    <section class="scene" id="s13" data-screen-label="13 What the pilot needs">
-      <p class="eyebrow r" style="--d:0s">What the pilot needs</p>
-      <h2 class="h-md r" style="--d:.15s; margin:18px 0 24px;">A clear, contained pilot. Nothing presented as secured that is not.</h2>
+    <section class="scene" id="s13" data-screen-label="13 What the programme needs">
+      <p class="eyebrow r" style="--d:0s">What the programme needs</p>
+      <h2 class="h-md r" style="--d:.15s; margin:18px 0 24px;">A clear, contained setup. Nothing presented as secured that is not.</h2>
       <div class="ask-grid">
         <div class="ask r" style="--d:.45s"><div class="ak">Cohort</div><div class="av">20 to 25 students, ages roughly 16 to 19, selected by the school.</div></div>
         <div class="ask r" style="--d:.6s"><div class="ak">Room and laptops</div><div class="av">A lab with reliable power and internet, a laptop per student, twice a week.</div></div>
@@ -691,7 +699,7 @@
     <section class="scene" id="s14" data-screen-label="14 Close">
       <p class="eyebrow r" style="--d:0s">The next step</p>
       <p class="closeline r-rise" style="--d:.3s; margin-top:26px;">The course is designed, the evidence base is verified, and the instructor is in Nairobi.</p>
-      <p class="next r" style="--d:.9s">The proposed next step is a pilot cohort in <span class="accent">[Term, 2026]</span>: a scoping conversation with leadership, the institutional access arrangement, student selection, and a named faculty liaison.</p>
+      <p class="next r" style="--d:.9s">The proposed next step is a scoping conversation with Haven leadership: term timing, institutional access, student selection, capstone-client vetting, and a named faculty liaison.</p>
       <div class="sig r" style="--d:1.3s">
         <svg class="glyph" viewbox="0 0 32 32" fill="none" aria-hidden="true">
           <path d="M16 8.5 L7.5 23.5 M16 8.5 L16 23.5 M16 8.5 L24.5 23.5" stroke="#0E9F6E" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
@@ -702,7 +710,7 @@
         </svg>
         <div class="who">
           <b>Njenga Kariuki</b>
-          <span>Managing Executive: Artificial Intelligence, M&#8209;Pesa Africa &#183; [Preferred contact]</span>
+          <span>Managing Executive: Artificial Intelligence &#183; [Preferred contact]</span>
         </div>
       </div>
       <p class="src r-fade" style="--d:1.7s; margin-top:46px;">Every statistic in this proposal has a row in our claims register, with a source link verified on 12 June 2026.</p>
@@ -732,11 +740,13 @@
       <circle cx="16" cy="24.5" r="2.3" fill="#0E9F6E"/>
       <circle cx="24.5" cy="24.5" r="2.3" fill="#0E9F6E"/>
     </svg>
-    <h1>The AI&#8209;Native Operator Programme</h1>
-    <p>A twelve&#8209;week course in operating AI, for [School]'s senior students.</p>
+    <span class="start-label">The AI&#8209;Native Operator Programme</span>
+    <h1>Teach students to use AI to do real work.</h1>
+    <p>A 12&#8209;week programme for Haven Institute of Technology. Senior students turn real tasks into working AI systems, check the results, and hand them over to people who can keep using them.</p>
+    <p class="proof">Six working builds. One real&#8209;organisation final project. Taught by Njenga Kariuki.</p>
     <div class="start-actions">
-      <button id="beginBtn"><svg viewbox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg> Begin</button>
-      <a class="pdf-link" href="AI-Native-Operator-Programme-Pitch-Film.pdf"><svg viewbox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6zm1 7V3.5L19.5 9H15zM8 13h8v2H8v-2zm0 4h8v2H8v-2zm0-8h4v2H8V9z"/></svg> PDF</a>
+      <button id="beginBtn"><svg viewbox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg> Watch pitch</button>
+      <a class="pdf-link" href="AI-Native-Operator-Programme-Pitch-Film.pdf"><svg viewbox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6zm1 7V3.5L19.5 9H15zM8 13h8v2H8v-2zm0 4h8v2H8v-2zm0-8h4v2H8V9z"/></svg> Read PDF</a>
     </div>
   </div>
 </div>
